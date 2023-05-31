@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    max-width: 1440px;
+    /* background: ; */
+    margin: auto; /* Auto */
+    overflow: auto;
+    height: 100vh;
+    /* width: 100vw; */
+    
+}
+.container{
+    background-image: url(./futuristic-bg.png);
+    background-size: cover;
+}
+.navbar{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.navbar ul{
+    display: flex;
+    margin-left: -200px;   
+}
+.navbar ul li{
+    margin: 0 15px;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+.navbar div :first-child{
+    padding: 10px 25px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border: none;
+    color: #ffffff;
+    background: none;
+    cursor: pointer;
+}
+.navbar div :nth-child(2){
+    padding: 10px 25px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #f4694c;
+    border: none;
+    cursor: pointer;
+}
+.top-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7% 5%;
+}
+.play_game{
+    width: 45%;
+}
+.play_game h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.play_game p{
+    padding: 30px 0;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #dddddd;
+}
+.play_game button{
+    display: inline;
+}
+.Get-started{
+    margin: 0 15px 0 0;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #f4694c;
+    border: none;
+    cursor: pointer;
+}
+.Learn-more{
+    margin: 0 15px 0 0;
+    padding: 13px 40px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #ffffff;
+    background: none;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+.play-btn{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.play_btn-container{
+    position: relative ;
+    top: 120px;
+}
+.rightArrow{
+    position: relative;
+    float: right;
+    top: -40px;
+    right: -150px;
+}
+.play_btn-king{
+    font-size: 1.3rem;
+    font-weight: 300;
+    align-items: center;
+    position: relative;
+    right: -60px;
+    top: -20px;
+    z-index: 1;
+}
+.games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 5%;
+}
+.games h1{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0 15% 5%;
+    text-align: center;
+}
+.type_of_games{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 ;
+    width: 100%;
+}
+.game-character_banner{
+    height: 500px;
+    width: 290px;
+    margin-left: 0;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+.soilder_img{
+    width: 100%; 
+    height: 360px; 
+    object-fit: cover; 
+    object-position: 75% 0;
+    /* height: 100% ;
+    width:100% ;
+    object-fit: cover;
+    object-position: 10% 100%;
+    position: relative;
+    left: -60px; */
+}
+.Wariors_img{
+    width: 100%; 
+    height: 360px; 
+    object-fit: cover; 
+    object-position: 50% 0;
+}
+.pubjiken_img{
+    width: 100%; 
+    height: 360px; 
+    object-fit: cover; 
+    object-position: 50% 0;
+}
+.garela_img{
+    width: 100%; 
+    height: 360px; 
+    object-fit: cover; 
+    object-position: 55% 0;
+}
+.soldier-War{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+}
+.solder_game{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -113px;
+    backdrop-filter: blur(20px);
+}
+.the-war{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+.action{
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 200;
+    padding: 4px 0;
+}
+.download{
+    padding: 10px 12px;
+    margin-right: 5%;
+    border: none;
+    background-color: #f4694c;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 200;
+    cursor: pointer;
+
+}
+.war_game{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.war-img{
+    height: 450px;
+    width: 45%;
+}
+.war_game-img{
+    width: 100%; 
+    height: 450px; 
+    object-fit: cover; 
+    object-position: 50% 0;
+}
+.war_game-heading{
+    width: 60;
+    display: flex;
+    flex-direction: column;
+}
+.war_game-heading h2{
+    font-size: 2.3rem;
+    font-weight: 800;
+    padding: 0 0 5% 0;
+}
+.war_game-heading p{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 0 5% 0;
+    margin: 0 0  60px 0;
+}
+.war_game-btn{
+    display: inline;
+}
+.war_game-btn :nth-child(1){
+    margin: 0 15px 0 0;
+    padding: 15px 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #f4694c;
+    border: none;
+    cursor: pointer;
+}
+.war_game-btn :nth-child(2){
+    margin: 0 15px 0 0;
+    padding: 12px 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #f4694c;
+    background-color: transparent;
+    border: 2px solid #f4694c;
+    cursor: pointer;
+}
+.week--games{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+.game_recommned{
+    width: 40%;
+}
+.game_recommned h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.next-arrows{
+    display: inline-block;
+}
+.next-arrows :nth-child(1){
+    padding: 25px 20px;
+    background-color: #f8d1c8;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.next-arrows :nth-child(2){
+    padding: 25px 20px;
+    background-color:#f4694c;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.weekily-games{
+    padding: 5%;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+}
+.human_battle_weekily-games{
+    /* width: 50%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+.human_battle--img{
+    height: 275px;
+    width: 235px;
+    margin-left: 0;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+.human_battle--img img{
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+    /* object-position: 55% 0;  */
+}
+.human_batle{
+    display: block;
+    margin-left: 30px;
+    width: 50%;
+}
+.human_batle h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000000;
+    padding: 0 0 10px 0;
+}
+.sport_type{
+    padding: 10px 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #f4694c;
+}
+.about--game{
+    margin-top: 5px;
+    color: #000000;
+    font-size: 0.84rem;
+    font-weight: 400;
+}
+.human_batle button{
+    margin: 15px 0 0 0;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #f4694c;
+    border: none;
+    cursor: pointer;
+}
+.most_played_games{
+    padding: 8% 5%;
+    background: #000108;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.most_played_games h3{
+    font-size: 2.2rem;
+    color: #ffffff;
+    text-align: center;
+}
+.most_played_games p{
+    margin-left: 30%;
+    padding: 60px 0 30px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #acaaaa;
+}
+.gameoftheworld{
+    margin-left: 38%;
+    height: 60px;
+}
+.most_played_games-posters{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0 5%;
+    background-color: #000108;
+}
+.most_played_games-posters img{
+    margin: 25px ;
+}
+.most_played_games-posters :nth-child(1){
+    width: 402px;
+    height: 407px;
+    position: relative;
+    top: -300px;
+    z-index: 1;
+    }
+.most_played_games-posters :nth-child(2){
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: -160px;
+    z-index: 1;
+}
+.most_played_games-posters :nth-child(3){
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: -160px;
+    z-index: 1;
+}
+.gammer_poster{
+    width: 100%;
+    /* background-color: #000108; */
+    /* padding: 5% 0; */
+    /* position: absolute; */
+}
+.gammer_poster img{
+    width: 100%;
+    filter: brightness(40%);
+    /* margin-bottom: -450px ; */
+}
+.unforgettable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding: 5% 0;
+    position: relative;
+    margin-top: -450px;
+    z-index: 1;
+}
+.unforgettable h3{
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    /* padding: 10px 0; */
+
+}
+.unforgettable p{
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    opacity: 40%;
+    padding: 25px 0;
+}
+.Get-started-last{
+    margin: 0 15px 0 0;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #f4694c;
+    border: none;
+    cursor: pointer; 
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    color: #e2e1e1;
+    /* padding: 40px 30px; */
+    padding: 8% 5%;
+    background: #000108;
+}
+.footer_play{
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 20px 0;
+}
+.social_media{
+    display: inline-block;
+}
+.social_media img{
+    margin: 10px 5px 0 0;
+    cursor: pointer;
+
+}
+.footer_option-logo{
+    display: flex;
+    flex-direction: flex;
+    justify-content: space-between;
+    padding: 2% 0;
+
+}
+.footer_option{
+    display: block;
+}
+.footer_option h6{
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 20px 0;
+}
+.footer_option ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.footer_option ul li{
+    margin: 10px 0;
+    font-size: 1rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+.line{
+    height: 2px;
+    width: 100%;
+    background-color: #686565;
+}
+.blank{
+    padding: 3% 100%;
+    background-color: #01000a;
+}
